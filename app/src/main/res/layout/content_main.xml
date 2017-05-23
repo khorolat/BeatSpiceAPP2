@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="buildguide.beatspiceapp.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:background="@drawable/mix">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="BeatSpice Recording Studios, in the heart of Soweto, is one of the music industry's growing recording facilities known for its world-class blend of state of the art electronic equipment. Since 2017, BeatSpice Recording Studios has continued the legacy of technical expertise and excellent service founded at this location by Tshepo Khorola 2016. BeatSpice Recording Studios features a seasoned, dedicated staff of technical engineers as well as the ability to draw from a diverse pool of highly qualified engineers. Additionally, the Studio's support staff takes pride in anticipating and exceeding clients' needs with professionalism and discretion."
+        android:textAlignment="center"
+        android:textColor="#ffeb3b"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:layout_weight="1"
+        android:text="Address:88 Hennessy st Killarney,Soweto,1804
+
+
+        Tell:011 808 6000
+
+
+        Email:dosh.entertainment@gmail.com"
+        android:textAlignment="center"
+        android:textColor="#64ffda"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>
